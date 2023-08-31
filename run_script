@@ -1,0 +1,5 @@
+#!/bin/bash
+
+
+
+python train.py --batch_size 64 --model 'resnet50' --dataset 'OLIVES' --epochs 25 --device 'cuda:0' --train_image_path '/data/Datasets' --test_image_path '/home/kiran/Desktop/DME/' --test_csv_path '/home/kiran/Desktop/Dev/VIPCUP2023_OLIVES/csv_dir/Phase2_submission_template.csv' --train_csv_path './csv_dir/Training_Biomarker_Data.csv'

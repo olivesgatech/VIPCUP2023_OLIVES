@@ -1,0 +1,6 @@
+save/
+.git/
+.csv_dir/
+.idea
+__pycache__/
+output.npy
